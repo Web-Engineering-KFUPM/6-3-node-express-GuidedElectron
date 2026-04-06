@@ -23,6 +23,8 @@ app.get("/", (req, res) => {
 });
 
 // TODO 6.2: Create "/api/quote" route
-
+app.get("/api/quote", (req, res) => {
+  res.json({ quote: getRandomQuote() });
+});
 
 // TODO 7: Start server using app.listen
