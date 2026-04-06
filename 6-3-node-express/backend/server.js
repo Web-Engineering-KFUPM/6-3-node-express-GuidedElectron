@@ -1,5 +1,7 @@
 // TODO 1: Import and Create express app instance
-
+import express from "express";
+const app = express();
+app.listen(3000, () => console.log("Server running"));
 // TODO 1: Define server port
 
 
